@@ -1,0 +1,13 @@
+.search-bar {min-height: 50px;
+    line-height: 50px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    background: #fff;
+    /* font-size: 2px; */
+    /* margin-left: 50pt; */
+    font-family: "EuclidFlexBold";
+    line-height: 50px;
+    padding: 0;
+    color: #282b30;
+}
