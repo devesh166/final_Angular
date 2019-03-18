@@ -11,3 +11,10 @@
     padding: 0;
     color: #282b30;
 }
+.categoriesbox ,.sizebox{
+    display: none;
+
+}
+ul {
+    list-style-type: none;
+}

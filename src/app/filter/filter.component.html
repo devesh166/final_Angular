@@ -20,538 +20,72 @@
 
     </div>
   </div>
+  <br>
   <!-- filter container  starts -->
   <div>
     <div class="row" style="min-height: 854px;">
       <div class="col-md-4">
-        <div class="col-md-8 col-md-offset-2 col-xs-12 padding-0"><button
-            class="close-search-filters hidden-md hidden-lg hidden-xl icon icon_cross-narrow-big"></button>
-          <form id="filter-form">
-            <div class="filter-accordion">
-              <div>
-                <div class="accordion-row" style="border-bottom: 0px;">
-                  <div class="option-row">
-                    <div id="collection-wrap"><input type="radio" id="category_plp_collections"
-                        value="Collections"><label class="radio-label all-results-label"
-                        for="category_plp_collections">Collections</label></div>
-                  </div>
-                </div>
-                <div class="accordion-row collapsible">
-                  <div class="icon icon_acc_row hidden-xs hidden-sm icon_pluss"></div><label
-                    style="border-bottom: 0px;">Categories</label>
-                  <div class="padding-0 overflowY sub-row-container">
-                    <div class="accordion-row-body" style="padding-left: 24px; padding-top: 5px;">
-                      <div class="option-row"><input type="radio" name="category_shop" value="Women" id="All Women-0"
-                          class="AllWomen_0" data-url="/catalogue/category/womens-wear_14/"><label class="radio-label"
-                          for="All Women-0"
-                          style="color: rgb(40, 43, 48); font-size: 12px; line-height: 29px; letter-spacing: 0.05em;"><span
-                            id="All Women">All Women</span></label></div>
-                    </div>
-                    <div class="accordion-row-body subRowTree" style="padding-left: 25px;">
-                      <div class="option-row"><input type="radio" name="category_shop" value="Women > Dresses"
-                          id="Dresses-0" class="Dresses_0" data-url="/catalogue/category/womens-wear/dresses_21/"><label
-                          class="radio-label" for="Dresses-0"><span>
-                            <!-- react-text: 114 -->Dresses
-                            <!-- /react-text -->
-                            <!-- react-text: 115 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 116 -->71
-                            <!-- /react-text -->
-                            <!-- react-text: 117 -->)
-                            <!-- /react-text --></span><!-- react-text: 118 -->
-                          <!-- /react-text --></label></div>
-                      <div class="option-row"><input type="radio" name="category_shop" value="Women > Bottoms"
-                          id="Bottoms-1" class="Bottoms_1" data-url="/catalogue/category/womens-wear/lowers_19/"><label
-                          class="radio-label" for="Bottoms-1"><span>
-                            <!-- react-text: 123 -->Bottoms
-                            <!-- /react-text -->
-                            <!-- react-text: 124 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 125 -->65
-                            <!-- /react-text -->
-                            <!-- react-text: 126 -->)
-                            <!-- /react-text --></span><!-- react-text: 127 -->
-                          <!-- /react-text --></label></div>
-                      <div class="option-row"><input type="radio" name="category_shop" value="Women > Tops" id="Tops-2"
-                          class="Tops_2" data-url="/catalogue/category/womens-wear/tops_15/"><label class="radio-label"
-                          for="Tops-2"><span>
-                            <!-- react-text: 132 -->Tops
-                            <!-- /react-text -->
-                            <!-- react-text: 133 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 134 -->54
-                            <!-- /react-text -->
-                            <!-- react-text: 135 -->)
-                            <!-- /react-text --></span><!-- react-text: 136 -->
-                          <!-- /react-text --></label></div>
-                      <div class="option-row"><input type="radio" name="category_shop"
-                          value="Women > Kurtas &amp; Tunics" id="Kurtas &amp; Tunics-3" class="KurtasTunics_3"
-                          data-url="/catalogue/category/womens-wear/kurtas_20/"><label class="radio-label"
-                          for="Kurtas &amp; Tunics-3"><span>
-                            <!-- react-text: 141 -->Kurtas &amp; Tunics
-                            <!-- /react-text -->
-                            <!-- react-text: 142 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 143 -->53
-                            <!-- /react-text -->
-                            <!-- react-text: 144 -->)
-                            <!-- /react-text --></span><!-- react-text: 145 -->
-                          <!-- /react-text --></label></div>
-                      <div class="option-row"><input type="radio" name="category_shop" value="Women > Accessories"
-                          id="Accessories-4" class="Accessories_4"
-                          data-url="/catalogue/category/womens-wear/jewellery_157/"><label class="radio-label"
-                          for="Accessories-4"><span>
-                            <!-- react-text: 150 -->Accessories
-                            <!-- /react-text -->
-                            <!-- react-text: 151 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 152 -->38
-                            <!-- /react-text -->
-                            <!-- react-text: 153 -->)
-                            <!-- /react-text --></span><!-- react-text: 154 -->
-                          <!-- /react-text --></label></div>
-                      <div class="option-row"><input type="radio" name="category_shop" value="Women > Nico Core"
-                          id="Nico Core-5" class="NicoCore_5"
-                          data-url="/catalogue/category/womens-wear/nicobar-signature_159/"><label class="radio-label"
-                          for="Nico Core-5"><span>
-                            <!-- react-text: 159 -->Nico Core
-                            <!-- /react-text -->
-                            <!-- react-text: 160 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 161 -->34
-                            <!-- /react-text -->
-                            <!-- react-text: 162 -->)
-                            <!-- /react-text --></span><img alt="nico-core-star-img" class="nico_star-category"
-                            src="/static/img/Nico_Core_Star.svg"></label></div>
-                      <div class="option-row"><input type="radio" name="category_shop"
-                          value="Women > Saris &amp; Dupattas" id="Saris &amp; Dupattas-6" class="SarisDupattas_6"
-                          data-url="/catalogue/category/womens-wear/saris-dupattas_82/"><label class="radio-label"
-                          for="Saris &amp; Dupattas-6"><span>
-                            <!-- react-text: 168 -->Saris &amp; Dupattas
-                            <!-- /react-text -->
-                            <!-- react-text: 169 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 170 -->27
-                            <!-- /react-text -->
-                            <!-- react-text: 171 -->)
-                            <!-- /react-text --></span><!-- react-text: 172 -->
-                          <!-- /react-text --></label></div>
-                      <div class="option-row"><input type="radio" name="category_shop" value="Women > Overlays"
-                          id="Overlays-7" class="Overlays_7"
-                          data-url="/catalogue/category/womens-wear/overlays_22/"><label class="radio-label"
-                          for="Overlays-7"><span>
-                            <!-- react-text: 177 -->Overlays
-                            <!-- /react-text -->
-                            <!-- react-text: 178 --> (
-                            <!-- /react-text -->
-                            <!-- react-text: 179 -->21
-                            <!-- /react-text -->
-                            <!-- react-text: 180 -->)
-                            <!-- /react-text --></span><!-- react-text: 181 -->
-                          <!-- /react-text --></label></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-row price-row collapsible">
-                  <div class="icon icon_pluss icon_acc_row hidden-xs hidden-sm"></div>
-                  <div class="icon icon_acc_row hidden-xs hidden-sm icon_pluss"></div><label>Price</label>
-                  <div class="accordion-row-body padding-0">
-                    <div class="slider-wrap fltr-bar">
-                      <div id="search-price-slider" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
-                        <div class="noUi-base">
-                          <div class="noUi-origin noUi-connect" style="left: 0%;">
-                            <div class="noUi-handle noUi-handle-lower">
-                              <div class="noUi-tooltip">₹ 300</div>
-                            </div>
-                          </div>
-                          <div class="noUi-origin noUi-background" style="left: 100%;">
-                            <div class="noUi-handle noUi-handle-upper">
-                              <div class="noUi-tooltip">₹ 36500</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="prs-val-wrap hardHide"><span class="prs-val prs-min" id="prslider-min">₹
-                          300</span><span class="prs-val prs-max" id="prslider-max">₹ 36500</span></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-row collapsible active">
-                  <div class="icon icon_acc_row hidden-xs hidden-sm icon_minus"></div><label>Size</label>
-                  <div class="accordion-row-body overflowAuto">
-                    <div class="option-row"><input type="checkbox" name="available_size" value="s" id="s-0"
-                        class="s_0"><label class="checkbox-label" for="s-0" style="text-transform: uppercase;">
-                        <!-- react-text: 3820 -->s
-                        <!-- /react-text -->
-                        <!-- react-text: 3821 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3822 -->168
-                        <!-- /react-text -->
-                        <!-- react-text: 3823 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="m" id="m-1"
-                        class="m_1"><label class="checkbox-label" for="m-1" style="text-transform: uppercase;">
-                        <!-- react-text: 3827 -->m
-                        <!-- /react-text -->
-                        <!-- react-text: 3828 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3829 -->156
-                        <!-- /react-text -->
-                        <!-- react-text: 3830 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="xs" id="xs-2"
-                        class="xs_2"><label class="checkbox-label" for="xs-2" style="text-transform: uppercase;">
-                        <!-- react-text: 3834 -->xs
-                        <!-- /react-text -->
-                        <!-- react-text: 3835 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3836 -->145
-                        <!-- /react-text -->
-                        <!-- react-text: 3837 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="l" id="l-3"
-                        class="l_3"><label class="checkbox-label" for="l-3" style="text-transform: uppercase;">
-                        <!-- react-text: 3841 -->l
-                        <!-- /react-text -->
-                        <!-- react-text: 3842 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3843 -->132
-                        <!-- /react-text -->
-                        <!-- react-text: 3844 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="xl" id="xl-4"
-                        class="xl_4"><label class="checkbox-label" for="xl-4" style="text-transform: uppercase;">
-                        <!-- react-text: 3848 -->xl
-                        <!-- /react-text -->
-                        <!-- react-text: 3849 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3850 -->81
-                        <!-- /react-text -->
-                        <!-- react-text: 3851 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="26" id="26-5"
-                        class="26_5"><label class="checkbox-label" for="26-5" style="text-transform: uppercase;">
-                        <!-- react-text: 3855 -->26
-                        <!-- /react-text -->
-                        <!-- react-text: 3856 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3857 -->20
-                        <!-- /react-text -->
-                        <!-- react-text: 3858 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="28" id="28-6"
-                        class="28_6"><label class="checkbox-label" for="28-6" style="text-transform: uppercase;">
-                        <!-- react-text: 3862 -->28
-                        <!-- /react-text -->
-                        <!-- react-text: 3863 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3864 -->20
-                        <!-- /react-text -->
-                        <!-- react-text: 3865 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="30" id="30-7"
-                        class="30_7"><label class="checkbox-label" for="30-7" style="text-transform: uppercase;">
-                        <!-- react-text: 3869 -->30
-                        <!-- /react-text -->
-                        <!-- react-text: 3870 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3871 -->18
-                        <!-- /react-text -->
-                        <!-- react-text: 3872 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="32" id="32-8"
-                        class="32_8"><label class="checkbox-label" for="32-8" style="text-transform: uppercase;">
-                        <!-- react-text: 3876 -->32
-                        <!-- /react-text -->
-                        <!-- react-text: 3877 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3878 -->18
-                        <!-- /react-text -->
-                        <!-- react-text: 3879 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="l-xl" id="l-xl-9"
-                        class="lxl_9"><label class="checkbox-label" for="l-xl-9" style="text-transform: uppercase;">
-                        <!-- react-text: 3883 -->l-xl
-                        <!-- /react-text -->
-                        <!-- react-text: 3884 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3885 -->10
-                        <!-- /react-text -->
-                        <!-- react-text: 3886 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="34" id="34-10"
-                        class="34_10"><label class="checkbox-label" for="34-10" style="text-transform: uppercase;">
-                        <!-- react-text: 3890 -->34
-                        <!-- /react-text -->
-                        <!-- react-text: 3891 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3892 -->8
-                        <!-- /react-text -->
-                        <!-- react-text: 3893 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="s-m" id="s-m-11"
-                        class="sm_11"><label class="checkbox-label" for="s-m-11" style="text-transform: uppercase;">
-                        <!-- react-text: 3897 -->s-m
-                        <!-- /react-text -->
-                        <!-- react-text: 3898 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3899 -->6
-                        <!-- /react-text -->
-                        <!-- react-text: 3900 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="36" id="36-12"
-                        class="36_12"><label class="checkbox-label" for="36-12" style="text-transform: uppercase;">
-                        <!-- react-text: 3904 -->36
-                        <!-- /react-text -->
-                        <!-- react-text: 3905 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3906 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3907 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="m-l" id="m-l-13"
-                        class="ml_13"><label class="checkbox-label" for="m-l-13" style="text-transform: uppercase;">
-                        <!-- react-text: 3911 -->m-l
-                        <!-- /react-text -->
-                        <!-- react-text: 3912 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3913 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3914 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="available_size" value="xs-s" id="xs-s-14"
-                        class="xss_14"><label class="checkbox-label" for="xs-s-14" style="text-transform: uppercase;">
-                        <!-- react-text: 3918 -->xs-s
-                        <!-- /react-text -->
-                        <!-- react-text: 3919 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3920 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3921 -->)
-                        <!-- /react-text --></label></div>
-                  </div>
-                </div>
-                <div class="accordion-row collapsible">
-                  <div class="icon icon_acc_row hidden-xs hidden-sm icon_pluss"></div><label>Color</label>
-                  <div class="accordion-row-body overflowAuto">
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Blue" id="Blue-0"
-                        class="Blue_0"><label class="checkbox-label" for="Blue-0">
-                        <!-- react-text: 308 -->Blue
-                        <!-- /react-text -->
-                        <!-- react-text: 309 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 310 -->72
-                        <!-- /react-text -->
-                        <!-- react-text: 311 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Ivory" id="Ivory-1"
-                        class="Ivory_1"><label class="checkbox-label" for="Ivory-1">
-                        <!-- react-text: 315 -->Ivory
-                        <!-- /react-text -->
-                        <!-- react-text: 316 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 317 -->50
-                        <!-- /react-text -->
-                        <!-- react-text: 318 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="White" id="White-2"
-                        class="White_2"><label class="checkbox-label" for="White-2">
-                        <!-- react-text: 322 -->White
-                        <!-- /react-text -->
-                        <!-- react-text: 323 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 324 -->32
-                        <!-- /react-text -->
-                        <!-- react-text: 325 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Red" id="Red-3"
-                        class="Red_3"><label class="checkbox-label" for="Red-3">
-                        <!-- react-text: 329 -->Red
-                        <!-- /react-text -->
-                        <!-- react-text: 330 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 331 -->29
-                        <!-- /react-text -->
-                        <!-- react-text: 332 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Grey" id="Grey-4"
-                        class="Grey_4"><label class="checkbox-label" for="Grey-4">
-                        <!-- react-text: 336 -->Grey
-                        <!-- /react-text -->
-                        <!-- react-text: 337 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 338 -->28
-                        <!-- /react-text -->
-                        <!-- react-text: 339 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Multi" id="Multi-5"
-                        class="Multi_5"><label class="checkbox-label" for="Multi-5">
-                        <!-- react-text: 343 -->Multi
-                        <!-- /react-text -->
-                        <!-- react-text: 344 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 345 -->27
-                        <!-- /react-text -->
-                        <!-- react-text: 346 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Black" id="Black-6"
-                        class="Black_6"><label class="checkbox-label" for="Black-6">
-                        <!-- react-text: 350 -->Black
-                        <!-- /react-text -->
-                        <!-- react-text: 351 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 352 -->23
-                        <!-- /react-text -->
-                        <!-- react-text: 353 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Green" id="Green-7"
-                        class="Green_7"><label class="checkbox-label" for="Green-7">
-                        <!-- react-text: 357 -->Green
-                        <!-- /react-text -->
-                        <!-- react-text: 358 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 359 -->14
-                        <!-- /react-text -->
-                        <!-- react-text: 360 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Brown" id="Brown-8"
-                        class="Brown_8"><label class="checkbox-label" for="Brown-8">
-                        <!-- react-text: 364 -->Brown
-                        <!-- /react-text -->
-                        <!-- react-text: 365 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 366 -->13
-                        <!-- /react-text -->
-                        <!-- react-text: 367 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Charcoal" id="Charcoal-9"
-                        class="Charcoal_9"><label class="checkbox-label" for="Charcoal-9">
-                        <!-- react-text: 371 -->Charcoal
-                        <!-- /react-text -->
-                        <!-- react-text: 372 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 373 -->11
-                        <!-- /react-text -->
-                        <!-- react-text: 374 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Yellow" id="Yellow-10"
-                        class="Yellow_10"><label class="checkbox-label" for="Yellow-10">
-                        <!-- react-text: 378 -->Yellow
-                        <!-- /react-text -->
-                        <!-- react-text: 379 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 380 -->7
-                        <!-- /react-text -->
-                        <!-- react-text: 381 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Pink" id="Pink-11"
-                        class="Pink_11"><label class="checkbox-label" for="Pink-11">
-                        <!-- react-text: 3925 -->Pink
-                        <!-- /react-text -->
-                        <!-- react-text: 3926 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3927 -->6
-                        <!-- /react-text -->
-                        <!-- react-text: 3928 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Red &amp; Pink"
-                        id="Red &amp; Pink-12" class="RedPink_12"><label class="checkbox-label" for="Red &amp; Pink-12">
-                        <!-- react-text: 3932 -->Red &amp; Pink
-                        <!-- /react-text -->
-                        <!-- react-text: 3933 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3934 -->6
-                        <!-- /react-text -->
-                        <!-- react-text: 3935 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Beige" id="Beige-13"
-                        class="Beige_13"><label class="checkbox-label" for="Beige-13">
-                        <!-- react-text: 3939 -->Beige
-                        <!-- /react-text -->
-                        <!-- react-text: 3940 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3941 -->5
-                        <!-- /react-text -->
-                        <!-- react-text: 3942 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Black &amp; White"
-                        id="Black &amp; White-14" class="BlackWhite_14"><label class="checkbox-label"
-                        for="Black &amp; White-14">
-                        <!-- react-text: 3946 -->Black &amp; White
-                        <!-- /react-text -->
-                        <!-- react-text: 3947 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3948 -->2
-                        <!-- /react-text -->
-                        <!-- react-text: 3949 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Aqua" id="Aqua-15"
-                        class="Aqua_15"><label class="checkbox-label" for="Aqua-15">
-                        <!-- react-text: 3953 -->Aqua
-                        <!-- /react-text -->
-                        <!-- react-text: 3954 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3955 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3956 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Blue &amp; Gold"
-                        id="Blue &amp; Gold-16" class="BlueGold_16"><label class="checkbox-label"
-                        for="Blue &amp; Gold-16">
-                        <!-- react-text: 3960 -->Blue &amp; Gold
-                        <!-- /react-text -->
-                        <!-- react-text: 3961 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3962 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3963 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Indigo &amp; White"
-                        id="Indigo &amp; White-17" class="IndigoWhite_17"><label class="checkbox-label"
-                        for="Indigo &amp; White-17">
-                        <!-- react-text: 3967 -->Indigo &amp; White
-                        <!-- /react-text -->
-                        <!-- react-text: 3968 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3969 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3970 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Orange" id="Orange-18"
-                        class="Orange_18"><label class="checkbox-label" for="Orange-18">
-                        <!-- react-text: 3974 -->Orange
-                        <!-- /react-text -->
-                        <!-- react-text: 3975 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3976 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3977 -->)
-                        <!-- /react-text --></label></div>
-                    <div class="option-row"><input type="checkbox" name="current_color" value="Purple" id="Purple-19"
-                        class="Purple_19"><label class="checkbox-label" for="Purple-19">
-                        <!-- react-text: 3981 -->Purple
-                        <!-- /react-text -->
-                        <!-- react-text: 3982 --> (
-                        <!-- /react-text -->
-                        <!-- react-text: 3983 -->1
-                        <!-- /react-text -->
-                        <!-- react-text: 3984 -->)
-                        <!-- /react-text --></label></div>
-                  </div>
-                </div>
-                <div class="accordion-row collapsible available-row">
-                  <div class="icon icon_pluss icon_acc_row hidden-xs hidden-sm"></div><label>Availability</label>
-                  <div class="accordion-row-body overflowAuto radio-button">
-                    <div class="option-row"><input type="checkbox" name="in_stock" value="true" id="os-0"
-                        class="true_0"><label class="checkbox-label" for="os-0"><span>Exclude Out Of
-                          Stock</span></label></div><!-- react-text: 453 -->
-                    <!-- /react-text -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
+         <!-- categories -->
+       <div id ="categories" (click)="categoriesFunction();">
+         <div id="cat">+ Categories </div>
+         <div class="categoriesbox" id ="categoriesbox">
+           <ul>
+             <li>
+                All Women
+             </li>
+             <li>
+                All Women
+             </li>
+             <li>
+                All Women
+             </li>
+             <li>
+                All Women
+             </li>
+             <li>
+                All Women
+             </li>
+             <li>
+                All Women
+             </li>
+             <li>
+                All Women
+             </li>
+             <li>
+                All Women
+             </li>
+           </ul>
+         </div>
+       </div>
+       <!-- size -->
+       <div id ="size" (click)="sizeFunction();">
+          <div id="siz">+ Size </div>
+          <div class="sizebox" id ="sizebox">
+            <ul>
+              <li>
+                 XS
+              </li>
+              <li>
+                 S
+              </li>
+              <li>
+                 M
+              </li>
+              <li>
+               L
+              </li>
+              <li>
+                XL
+              </li>
+              <li>
+                XXL
+              </li>
+             
+            </ul>
+          </div>
         </div>
+        <!-- size -->
+
       </div>
       <div class="col-md-8"></div>
     </div>
